@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import './App.css'
 
 import { familiarTypes, familiar } from "./familiars.ts"
+import Castle from './castle.tsx'
 
 function App() {
     const [bloodAmount, setBloodAmount] = useState<number>(0)
@@ -64,7 +65,8 @@ function App() {
 
     return (
         <>
-            <section className="my-12">
+            <Castle></Castle>
+            {/* <section className="my-12">
                 <h1>Blood collected: {bloodAmount}</h1>
             </section>
 
@@ -87,7 +89,7 @@ function App() {
                         {listFamiliars}
                     </tbody>
                 </table>
-            </section>
+            </section> */}
         </>
     );
 }

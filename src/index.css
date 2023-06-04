@@ -18,6 +18,12 @@
   -webkit-text-size-adjust: 100%;
 }
 
+.ascii-art {
+  font-family: monospace;
+  white-space: pre;
+  color: blue;
+}
+
 a {
   font-weight: 500;
   color: #646cff;

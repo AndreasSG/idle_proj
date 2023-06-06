@@ -8,5 +8,8 @@
             extend: {},
         },
         plugins: [require("daisyui")],
+        daisyui: {
+            themes: ["light", "night", "dracula"],
+        },
     }
 
